@@ -1,0 +1,354 @@
+INFO:root:Forecastiong Job Started...
+DEBUG:root:abc method started...
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55659/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55659
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55659 "POST /session HTTP/1.1" 200 856
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_login:********** Test_001_Login **********
+INFO:test_login:********** Verifying Home page title **********
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55659/session/5bfd4252eedd40688bbb8fcdd8c4a633/url {"url": "https://admin-demo.nopcommerce.com/", "sessionId": "5bfd4252eedd40688bbb8fcdd8c4a633"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55659 "POST /session/5bfd4252eedd40688bbb8fcdd8c4a633/url HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55659/session/5bfd4252eedd40688bbb8fcdd8c4a633/title {"sessionId": "5bfd4252eedd40688bbb8fcdd8c4a633"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55659 "GET /session/5bfd4252eedd40688bbb8fcdd8c4a633/title HTTP/1.1" 200 87
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55659/session/5bfd4252eedd40688bbb8fcdd8c4a633/window {"sessionId": "5bfd4252eedd40688bbb8fcdd8c4a633"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55659 "DELETE /session/5bfd4252eedd40688bbb8fcdd8c4a633/window HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_login:****** Home page Title is passed *******
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58593
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session HTTP/1.1" 200 856
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_login:******* Verifying Login Test **********
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/url {"url": "https://admin-demo.nopcommerce.com/", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/url HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element {"using": "id", "value": "Email", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-1/clear {"id": "0.9631706938524756-1", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-1/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element {"using": "id", "value": "Email", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "0.9631706938524756-1", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-1/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element {"using": "id", "value": "Password", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-2/clear {"id": "0.9631706938524756-2", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element {"using": "id", "value": "Password", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.9631706938524756-2", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element {"using": "xpath", "value": "//input[@class='button-1 login-button']", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-3/click {"id": "0.9631706938524756-3", "sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "POST /session/df5f76ee98b80cf3c68adb8d337f6f4e/element/0.9631706938524756-3/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/title {"sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "GET /session/df5f76ee98b80cf3c68adb8d337f6f4e/title HTTP/1.1" 200 108
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:58593/session/df5f76ee98b80cf3c68adb8d337f6f4e/window {"sessionId": "df5f76ee98b80cf3c68adb8d337f6f4e"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58593 "DELETE /session/df5f76ee98b80cf3c68adb8d337f6f4e/window HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_login:****** Login Test is passed *******
+INFO:root:Forecastiong Job Started...
+DEBUG:root:abc method started...
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59297/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59297
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59297 "POST /session HTTP/1.1" 200 856
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_login:********** Test_001_Login **********
+INFO:test_login:********** Verifying Home page title **********
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59297/session/8e08d437375117105ea8c207728b5cf0/url {"url": "https://admin-demo.nopcommerce.com/", "sessionId": "8e08d437375117105ea8c207728b5cf0"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59297 "POST /session/8e08d437375117105ea8c207728b5cf0/url HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59297/session/8e08d437375117105ea8c207728b5cf0/title {"sessionId": "8e08d437375117105ea8c207728b5cf0"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59297 "GET /session/8e08d437375117105ea8c207728b5cf0/title HTTP/1.1" 200 87
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:59297/session/8e08d437375117105ea8c207728b5cf0/window {"sessionId": "8e08d437375117105ea8c207728b5cf0"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59297 "DELETE /session/8e08d437375117105ea8c207728b5cf0/window HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_login:****** Home page Title is passed *******
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58491
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session HTTP/1.1" 200 856
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_login:******* Verifying Login Test **********
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/url {"url": "https://admin-demo.nopcommerce.com/", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/url HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element {"using": "id", "value": "Email", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-1/clear {"id": "0.8948975534535322-1", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-1/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element {"using": "id", "value": "Email", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "0.8948975534535322-1", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-1/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element {"using": "id", "value": "Password", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-2/clear {"id": "0.8948975534535322-2", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element {"using": "id", "value": "Password", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.8948975534535322-2", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element {"using": "xpath", "value": "//input[@class='button-1 login-button']", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-3/click {"id": "0.8948975534535322-3", "sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "POST /session/848d825a5334fddbbfbae29ee337ddc1/element/0.8948975534535322-3/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/title {"sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "GET /session/848d825a5334fddbbfbae29ee337ddc1/title HTTP/1.1" 200 108
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:58491/session/848d825a5334fddbbfbae29ee337ddc1/window {"sessionId": "848d825a5334fddbbfbae29ee337ddc1"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58491 "DELETE /session/848d825a5334fddbbfbae29ee337ddc1/window HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_login:****** Login Test is passed *******
+09/21/2020 03:03:44 PM: INFO: ********** Test_001_Login **********
+09/21/2020 03:03:44 PM: INFO: ********** Verifying Home page title **********
+09/21/2020 03:03:53 PM: INFO: ****** Home page Title is passed *******
+09/21/2020 03:03:55 PM: INFO: ******* Verifying Login Test **********
+09/21/2020 03:04:06 PM: INFO: ****** Login Test is passed *******
+09/21/2020 03:30:23 PM: INFO: ********** Test_001_Login **********
+09/21/2020 03:30:23 PM: INFO: ********** Verifying Home page title **********
+09/21/2020 03:30:28 PM: INFO: ****** Home page Title is passed *******
+09/21/2020 03:30:29 PM: INFO: ******* Verifying Login Test **********
+09/21/2020 03:30:39 PM: INFO: ****** Login Test is passed *******
+09/21/2020 03:31:40 PM: INFO: ********** Test_001_Login **********
+09/21/2020 03:31:40 PM: INFO: ********** Verifying Home page title **********
+09/21/2020 03:31:40 PM: INFO: ******* Verifying Login Test **********
+09/21/2020 03:31:45 PM: INFO: ****** Home page Title is passed *******
+09/21/2020 03:31:50 PM: INFO: ****** Login Test is passed *******
+09/21/2020 03:32:22 PM: INFO: ******* Verifying Login Test **********
+09/21/2020 03:32:22 PM: INFO: ********** Test_001_Login **********
+09/21/2020 03:32:22 PM: INFO: ********** Verifying Home page title **********
+09/21/2020 03:32:27 PM: INFO: ****** Home page Title is passed *******
+09/21/2020 03:32:31 PM: INFO: ****** Login Test is passed *******
+09/21/2020 03:39:45 PM: INFO: ******* Verifying Login Test **********
+09/21/2020 03:39:46 PM: INFO: ********** Test_001_Login **********
+09/21/2020 03:39:46 PM: INFO: ********** Verifying Home page title **********
+09/21/2020 03:39:52 PM: INFO: ****** Home page Title is passed *******
+09/21/2020 03:39:54 PM: INFO: ****** Login Test is passed *******
+09/21/2020 04:49:44 PM: INFO: ************ Test_002_DDT_Login
+09/21/2020 04:49:44 PM: INFO: ******* Verifying Login Test **********
+09/21/2020 04:50:00 PM: INFO: **passed**
+09/21/2020 04:50:03 PM: INFO: *********Login DDT test passed*********
+09/21/2020 04:50:03 PM: INFO: ******* End of login test *****
+09/21/2020 04:50:03 PM: INFO: ******* Completed TC_002_LoginTestDDT *********
+09/21/2020 05:52:12 PM: INFO: ************ Test_002_DDT_Login
+09/21/2020 05:52:12 PM: INFO: ******* Verifying Login Test **********
+09/21/2020 05:52:26 PM: INFO: **passed**
+09/21/2020 05:52:28 PM: INFO: *********Login DDT test passed*********
+09/21/2020 05:52:28 PM: INFO: ******* End of login test *****
+09/21/2020 05:52:28 PM: INFO: ******* Completed TC_002_LoginTestDDT *********
+09/21/2020 06:27:13 PM: INFO: ************ Test_002_DDT_Login
+09/21/2020 06:27:13 PM: INFO: ******* Verifying Login Test **********
+09/21/2020 06:27:26 PM: INFO: **passed**
+09/21/2020 06:27:46 PM: INFO: *********Login DDT test passed*********
+09/21/2020 06:27:46 PM: INFO: ******* End of login test *****
+09/21/2020 06:27:46 PM: INFO: ******* Completed TC_002_LoginTestDDT *********
+09/22/2020 08:27:09 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:27:19 AM: INFO: ************* Login succesful **********
+09/22/2020 08:27:19 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:27:28 AM: INFO: ************* Providing customer info **********
+09/22/2020 08:27:41 AM: INFO: ************* Saving customer info **********
+09/22/2020 08:27:41 AM: INFO: ********* Add customer validation started *****************
+09/22/2020 08:27:41 AM: INFO: ********* Add customer Test Passed *********
+09/22/2020 08:27:41 AM: INFO: ******* Ending Add customer test **********
+09/22/2020 08:29:23 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:29:39 AM: INFO: ************* Login succesful **********
+09/22/2020 08:29:39 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:30:31 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:31:25 AM: INFO: ************* Login succesful **********
+09/22/2020 08:31:25 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:33:26 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:33:52 AM: INFO: ************* Login succesful **********
+09/22/2020 08:33:52 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:35:16 AM: INFO: ************* Providing customer info **********
+09/22/2020 08:36:04 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:36:12 AM: INFO: ************* Login succesful **********
+09/22/2020 08:36:12 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:36:19 AM: INFO: ************* Providing customer info **********
+09/22/2020 08:41:18 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:41:26 AM: INFO: ************* Login succesful **********
+09/22/2020 08:41:26 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:41:32 AM: INFO: ************* Providing customer info **********
+09/22/2020 08:42:48 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:42:58 AM: INFO: ************* Login succesful **********
+09/22/2020 08:42:58 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:43:04 AM: INFO: ************* Providing customer info **********
+09/22/2020 08:53:21 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:53:32 AM: INFO: ************* Login succesful **********
+09/22/2020 08:53:32 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:53:38 AM: INFO: ************* Providing customer info **********
+09/22/2020 08:55:33 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:55:42 AM: INFO: ************* Login succesful **********
+09/22/2020 08:55:42 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:55:48 AM: INFO: ************* Providing customer info **********
+09/22/2020 08:58:31 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 08:58:41 AM: INFO: ************* Login succesful **********
+09/22/2020 08:58:41 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 08:58:47 AM: INFO: ************* Providing customer info **********
+09/22/2020 09:02:05 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 09:02:15 AM: INFO: ************* Login succesful **********
+09/22/2020 09:02:15 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 09:02:22 AM: INFO: ************* Providing customer info **********
+09/22/2020 09:03:27 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 09:03:37 AM: INFO: ************* Login succesful **********
+09/22/2020 09:03:37 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 09:03:43 AM: INFO: ************* Providing customer info **********
+09/22/2020 09:03:58 AM: INFO: ************* Saving customer info **********
+09/22/2020 09:03:58 AM: INFO: ********* Add customer validation started *****************
+09/22/2020 09:03:58 AM: INFO: ********* Add customer Test Passed *********
+09/22/2020 09:03:58 AM: INFO: ******* Ending Add customer test **********
+09/22/2020 09:04:38 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 09:04:49 AM: INFO: ************* Login succesful **********
+09/22/2020 09:04:49 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 09:04:55 AM: INFO: ************* Providing customer info **********
+09/22/2020 09:05:10 AM: INFO: ************* Saving customer info **********
+09/22/2020 09:05:10 AM: INFO: ********* Add customer validation started *****************
+09/22/2020 09:05:10 AM: INFO: ********* Add customer Test Passed *********
+09/22/2020 09:05:10 AM: INFO: ******* Ending Add customer test **********
+09/22/2020 11:01:07 AM: INFO: ************* SearchCustomerByEmail_004 **********
+09/22/2020 11:01:16 AM: INFO: ************* Login succesful **********
+09/22/2020 11:01:16 AM: INFO: ******* Starting Search Customer By Email **********
+09/22/2020 11:01:18 AM: INFO: ************* searching customer by emailID **********
+09/22/2020 11:01:24 AM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+09/22/2020 11:01:36 AM: INFO: ************* SearchCustomerByEmail_004 **********
+09/22/2020 11:01:45 AM: INFO: ************* Login succesful **********
+09/22/2020 11:01:45 AM: INFO: ******* Starting Search Customer By Email **********
+09/22/2020 11:01:49 AM: INFO: ************* searching customer by emailID **********
+09/22/2020 11:01:54 AM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+09/22/2020 11:04:58 AM: INFO: ************* SearchCustomerByEmail_004 **********
+09/22/2020 11:05:07 AM: INFO: ************* Login succesful **********
+09/22/2020 11:05:07 AM: INFO: ******* Starting Search Customer By Email **********
+09/22/2020 11:28:33 AM: INFO: ************* SearchCustomerByEmail_004 **********
+09/22/2020 11:28:43 AM: INFO: ************* Login succesful **********
+09/22/2020 11:28:43 AM: INFO: ******* Starting Search Customer By Email **********
+09/22/2020 11:28:45 AM: INFO: ************* searching customer by emailID **********
+09/22/2020 11:28:51 AM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+09/22/2020 11:29:10 AM: INFO: ************* SearchCustomerByName_005 **********
+09/22/2020 11:29:20 AM: INFO: ************* Login succesful **********
+09/22/2020 11:29:20 AM: INFO: ******* Starting Search Customer By Name **********
+09/22/2020 11:29:24 AM: INFO: ************* searching customer by Name **********
+09/22/2020 11:29:30 AM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+09/22/2020 11:32:29 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 11:32:39 AM: INFO: ************* Login succesful **********
+09/22/2020 11:32:39 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 11:32:45 AM: INFO: ************* Providing customer info **********
+09/22/2020 11:33:00 AM: INFO: ************* Saving customer info **********
+09/22/2020 11:33:00 AM: INFO: ********* Add customer validation started *****************
+09/22/2020 11:33:00 AM: INFO: ********* Add customer Test Passed *********
+09/22/2020 11:33:00 AM: INFO: ******* Ending Add customer test **********
+09/22/2020 11:33:02 AM: INFO: ********** Test_001_Login **********
+09/22/2020 11:33:02 AM: INFO: ********** Verifying Home page title **********
+09/22/2020 11:33:06 AM: INFO: ****** Home page Title is passed *******
+09/22/2020 11:33:08 AM: INFO: ******* Verifying Login Test **********
+09/22/2020 11:33:16 AM: INFO: ****** Login Test is passed *******
+09/22/2020 11:33:18 AM: INFO: ************ Test_002_DDT_Login
+09/22/2020 11:33:18 AM: INFO: ******* Verifying Login Test **********
+09/22/2020 11:33:33 AM: INFO: **passed**
+09/22/2020 11:33:52 AM: INFO: *********Login DDT test passed*********
+09/22/2020 11:33:52 AM: INFO: ******* End of login test *****
+09/22/2020 11:33:52 AM: INFO: ******* Completed TC_002_LoginTestDDT *********
+09/22/2020 11:33:54 AM: INFO: ************* SearchCustomerByEmail_004 **********
+09/22/2020 11:34:04 AM: INFO: ************* Login succesful **********
+09/22/2020 11:34:04 AM: INFO: ******* Starting Search Customer By Email **********
+09/22/2020 11:34:07 AM: INFO: ************* searching customer by emailID **********
+09/22/2020 11:34:13 AM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+09/22/2020 11:34:14 AM: INFO: ************* SearchCustomerByName_005 **********
+09/22/2020 11:34:21 AM: INFO: ************* Login succesful **********
+09/22/2020 11:34:21 AM: INFO: ******* Starting Search Customer By Name **********
+09/22/2020 11:34:26 AM: INFO: ************* searching customer by Name **********
+09/22/2020 11:34:31 AM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+09/22/2020 11:38:13 AM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 11:38:26 AM: INFO: ************* Login succesful **********
+09/22/2020 11:38:26 AM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 11:38:32 AM: INFO: ************* Providing customer info **********
+09/22/2020 11:38:47 AM: INFO: ************* Saving customer info **********
+09/22/2020 11:38:47 AM: INFO: ********* Add customer validation started *****************
+09/22/2020 11:38:47 AM: INFO: ********* Add customer Test Passed *********
+09/22/2020 11:38:47 AM: INFO: ******* Ending Add customer test **********
+09/22/2020 11:38:49 AM: INFO: ********** Test_001_Login **********
+09/22/2020 11:38:49 AM: INFO: ********** Verifying Home page title **********
+09/22/2020 11:38:53 AM: INFO: ****** Home page Title is passed *******
+09/22/2020 11:38:55 AM: INFO: ******* Verifying Login Test **********
+09/22/2020 11:39:03 AM: INFO: ****** Login Test is passed *******
+09/22/2020 11:39:05 AM: INFO: ************ Test_002_DDT_Login
+09/22/2020 11:39:05 AM: INFO: ******* Verifying Login Test **********
+09/22/2020 11:39:19 AM: INFO: **passed**
+09/22/2020 11:39:38 AM: INFO: *********Login DDT test passed*********
+09/22/2020 11:39:38 AM: INFO: ******* End of login test *****
+09/22/2020 11:39:38 AM: INFO: ******* Completed TC_002_LoginTestDDT *********
+09/22/2020 11:39:40 AM: INFO: ************* SearchCustomerByEmail_004 **********
+09/22/2020 11:39:49 AM: INFO: ************* Login succesful **********
+09/22/2020 11:39:49 AM: INFO: ******* Starting Search Customer By Email **********
+09/22/2020 11:39:53 AM: INFO: ************* searching customer by emailID **********
+09/22/2020 11:39:59 AM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+09/22/2020 11:40:00 AM: INFO: ************* SearchCustomerByName_005 **********
+09/22/2020 11:40:10 AM: INFO: ************* Login succesful **********
+09/22/2020 11:40:10 AM: INFO: ******* Starting Search Customer By Name **********
+09/22/2020 11:40:14 AM: INFO: ************* searching customer by Name **********
+09/22/2020 11:40:19 AM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+09/22/2020 05:32:40 PM: INFO: ************* Test_003_AddCustomer **********
+09/22/2020 05:32:52 PM: INFO: ************* Login succesful **********
+09/22/2020 05:32:52 PM: INFO: ******* Starting Add Customer Test **********
+09/22/2020 05:32:58 PM: INFO: ************* Providing customer info **********
+09/22/2020 05:33:13 PM: INFO: ************* Saving customer info **********
+09/22/2020 05:33:13 PM: INFO: ********* Add customer validation started *****************
+09/22/2020 05:33:13 PM: INFO: ********* Add customer Test Passed *********
+09/22/2020 05:33:13 PM: INFO: ******* Ending Add customer test **********
+09/22/2020 05:33:15 PM: INFO: ******* Verifying Login Test **********
+09/22/2020 05:33:23 PM: INFO: ****** Login Test is passed *******
+09/22/2020 06:02:45 PM: INFO: ******* Verifying Login Test **********
+09/22/2020 06:02:54 PM: INFO: ****** Login Test is passed *******
+09/22/2020 06:03:32 PM: INFO: ******* Verifying Login Test **********
+09/22/2020 06:03:40 PM: INFO: ****** Login Test is passed *******
+09/22/2020 06:06:05 PM: INFO: ********** Test_001_Login **********
+09/22/2020 06:06:05 PM: INFO: ********** Verifying Home page title **********
+09/22/2020 06:06:10 PM: INFO: ****** Home page Title is passed *******
+09/22/2020 06:06:12 PM: INFO: ******* Verifying Login Test **********
+09/22/2020 06:06:24 PM: INFO: ****** Login Test is passed *******
+09/22/2020 06:06:26 PM: INFO: ************ Test_002_DDT_Login
+09/22/2020 06:06:26 PM: INFO: ******* Verifying Login Test **********
+09/22/2020 06:06:39 PM: INFO: **passed**
+09/22/2020 06:06:58 PM: INFO: *********Login DDT test passed*********
+09/22/2020 06:06:58 PM: INFO: ******* End of login test *****
+09/22/2020 06:06:58 PM: INFO: ******* Completed TC_002_LoginTestDDT *********
+09/22/2020 06:07:00 PM: INFO: ************* SearchCustomerByEmail_004 **********
+09/22/2020 06:07:11 PM: INFO: ************* Login succesful **********
+09/22/2020 06:07:11 PM: INFO: ******* Starting Search Customer By Email **********
+09/22/2020 06:07:13 PM: INFO: ************* searching customer by emailID **********
+09/22/2020 06:07:18 PM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+09/22/2020 06:07:20 PM: INFO: ************* SearchCustomerByName_005 **********
+09/22/2020 06:07:30 PM: INFO: ************* Login succesful **********
+09/22/2020 06:07:30 PM: INFO: ******* Starting Search Customer By Name **********
+09/22/2020 06:07:35 PM: INFO: ************* searching customer by Name **********
+09/22/2020 06:07:40 PM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+09/22/2020 06:32:43 PM: INFO: ********** Test_001_Login **********
+09/22/2020 06:32:43 PM: INFO: ********** Verifying Home page title **********
+09/22/2020 06:32:48 PM: INFO: ******* Verifying Login Test **********
+09/22/2020 06:32:51 PM: INFO: ************ Test_002_DDT_Login
+09/22/2020 06:32:51 PM: INFO: ******* Verifying Login Test **********
+09/22/2020 06:32:54 PM: INFO: ************* SearchCustomerByEmail_004 **********
+09/22/2020 06:32:56 PM: INFO: ************* SearchCustomerByName_005 **********

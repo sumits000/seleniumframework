@@ -1,0 +1,10 @@
+Debug Message
+Info Message
+Warning
+An Error Occured
+Critical error shutdown
+********** Test_001_Login **********
+********** Verifying Home page title **********
+****** Home page Title is passed *******
+******* Verifying Login Test **********
+****** Login Test is passed *******

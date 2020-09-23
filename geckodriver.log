@@ -1,0 +1,25 @@
+1600583480043	geckodriver	INFO	Listening on 127.0.0.1:45497
+1600583480092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTga9Zf"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600583490237	Marionette	INFO	Listening on port 41131
+1600583490368	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600583495803	Marionette	INFO	Stopped listening on port 41131
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1600583503102	geckodriver	INFO	Listening on 127.0.0.1:58821
+1600583503106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevAVf9V"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600583506717	Marionette	INFO	Listening on port 42099
+1600583506822	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600583518628	Marionette	INFO	Stopped listening on port 42099
+1600583577470	geckodriver	INFO	Listening on 127.0.0.1:37949
+1600583577477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile46WNoH"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600583581256	Marionette	INFO	Listening on port 34229
+1600583581290	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600583587329	Marionette	INFO	Stopped listening on port 34229
+1600583593797	geckodriver	INFO	Listening on 127.0.0.1:48669
+1600583593802	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0oTk5n"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600583597276	Marionette	INFO	Listening on port 33705
+1600583597331	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600583608553	Marionette	INFO	Stopped listening on port 33705
